@@ -1,0 +1,69 @@
+    1  ls
+    2  mkdir linux_practice
+    3  cd linux_practice
+    4  touch notes.txt
+    5  ls >> notes.txt
+    6  cat notes.txt
+    7  echo "Hello, Linux!"
+    8  echo "This is a practical exam."
+    9  cat notes.txt
+   10  head notes.txt
+   11  head -n 1 notes.txt
+   12  tail notes.txt
+   13  mkdir subdir
+   14  mv notes.txt subdir
+   15  mv subdir practice_subdir
+   16  cp practice_subdir/notes.txt
+   17  clear
+   18  rm notes
+   19  rm notes.txt
+   20  rm -r practice_subdir
+   21  touch notes.txt
+   22  ls
+   23  cat notes.txt
+   24  echo "Hello, Linux!" >> notes.txt
+   25  echo "This is a practical exam." >> notes.txt
+   26  head notes.txt
+   27  tail notes.txt
+   28  mkdir subdir
+   29  mv notes.txt subdir
+   30  ren subdir practice_subdir
+   31  rem subdir practice_subdir
+   32  mv subdir practice_subdir
+   33  cd practice_subdur
+   34  cd practice_subdir
+   35  cd
+   36  cd linux_practice
+   37  cd practice_subdir
+   38  cp notes.txt linux_practice
+   39  cd..
+   40  cd
+   41  cd linux_practicr
+   42  cd linux_practice
+   43  nano notes.txt
+   44  ls
+   45  date
+   46  uptime
+   47  du -sh ~
+   48  ssh -V
+   49  php -v
+   50  mysql --version
+   51  pkg install mariadb
+   52  mysql --version
+   53  apache2 -version
+   54  apachectl --version
+   55  apachectl -v
+   56  python -v
+   57  python --version
+   58  java -version
+   59  ls
+   60  tail notes.txt
+   61  cd practice_subdir
+   62  ls
+   63  tail notes.txt
+   64  gh repo clone https://github.com/Glester-16/233819993_RIVERO
+   65  gh auth login
+   66  gh repo clone https://github.com/Glester-16/233819993_RIVERO
+   67  cd 233819993_RIVERO
+   68  git checkout -b finalexam
+   69  history > exam_log.txt
