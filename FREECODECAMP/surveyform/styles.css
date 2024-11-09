@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Using Roboto for body text */
+    background: linear-gradient(to right, #a8c0ff, #3f79e0); /* Gradient background */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    transform: translateY(-30px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(0);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Montserrat for headers */
+    font-size: 2.4rem;
+    color: #3f79e0; /* Blue title */
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+input, select, textarea, button {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+    border-color: #3f79e0;
+    box-shadow: 0 0 8px rgba(63, 121, 224, 0.4);
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+select {
+    width: 100%;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    height: 160px;
+}
+
+button {
+    background-color: #3f79e0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+button:hover {
+    background-color: #2851a3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+fieldset:hover {
+    border-color: #3f79e0;
+}
+
+legend {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #3f79e0;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+label input[type="radio"], label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Colorful Hover Effects for Inputs */
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, select:hover, textarea:hover {
+    border-color: #3f79e0;
+    background-color: #eef4ff;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        padding: 0;
+    }
+}

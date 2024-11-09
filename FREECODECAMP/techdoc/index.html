@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-body">
+        <nav id="navbar">
+            <header>Documentation Menu</header>
+            <a href="#Intro" class="nav-link">What is C++</a>
+            <a href="#Object" class="nav-link">Objects and Classes</a>
+            <a href="#Inheritance" class="nav-link">Inheritance</a>
+            <a href="#Polymorphism" class="nav-link">Polymorphism</a>
+            <a href="#Abstraction" class="nav-link">Abstraction</a>
+            <a href="#Encapsulation" class="nav-link">Encapsulation</a>
+        </nav>
+
+        <main id="main-doc">
+            <section class="main-section" id="Intro">
+                <header>What is C++?</header>
+                <p>
+                    C++ is a general purpose programming language, widely used for competitive programming. It supports imperative, object-oriented, and generic programming paradigms. C++ runs on platforms like Windows, Linux, Unix, and Mac, and is renowned for its efficiency and versatility in various fields like GUI applications, 3D graphics, and real-time simulations.
+                </p>
+                <p>
+                    Here's the classic “Hello World” program:
+                </p>
+                <code>
+                    #include<iostream><br>
+                    using namespace std;<br><br>
+                    int main() {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;cout << "Hello World";<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+                    }
+                </code>
+                <p>C++ is an Object-Oriented Programming (OOP) language. The main pillars of OOP are:</p>
+                <ul>
+                    <li>Objects and Classes</li>
+                    <li>Inheritance</li>
+                    <li>Polymorphism</li>
+                    <li>Abstraction</li>
+                    <li>Encapsulation</li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Object">
+                <header>Objects and Classes</header>
+                <p>
+                    Object-Oriented Programming (OOP) revolves around using objects. OOP helps bind data and the functions that operate on them into a single unit, so the data cannot be accessed by outside code unless through the defined functions.
+                </p>
+                <p><strong>Object:</strong> An object is an instance of a class, representing real-world entities with characteristics and behaviors.</p>
+                <p><strong>Class:</strong> A class is a blueprint that defines the properties (attributes) and methods (functions) that an object can have. For example, a "Car" class may define attributes like wheels, speed, and mileage, and methods like start() or stop().</p>
+            </section>
+
+            <section class="main-section" id="Inheritance">
+                <header>Inheritance</header>
+                <p>Inheritance allows a class to inherit properties and behaviors from another class. This facilitates code reuse and the creation of hierarchical relationships between classes.</p>
+                <p><strong>Sub Class:</strong> A class that inherits from another class (base class).</p>
+                <p><strong>Super Class:</strong> A class whose properties are inherited by a subclass.</p>
+            </section>
+
+            <section class="main-section" id="Polymorphism">
+                <header>Polymorphism</header>
+                <p>Polymorphism allows a single entity to take many forms. It is a core concept in OOP, where the same function can behave differently depending on the object it is operating on.</p>
+                <p>There are two types of polymorphism in C++: <br>
+                    <strong>Compile-time Polymorphism</strong> (e.g., function overloading) <br>
+                    <strong>Runtime Polymorphism</strong> (e.g., function overriding)
+                </p>
+            </section>
+
+            <section class="main-section" id="Abstraction">
+                <header>Abstraction</header>
+                <p>Abstraction is the concept of hiding implementation details and providing only essential information to the user. In C++, abstraction can be achieved through classes and interfaces.</p>
+            </section>
+
+            <section class="main-section" id="Encapsulation">
+                <header>Encapsulation</header>
+                <p>Encapsulation refers to bundling the data and functions that manipulate the data into a single unit. It helps protect the integrity of the data by restricting access to certain components.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
